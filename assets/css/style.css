@@ -1548,6 +1548,7 @@ textarea.form-input::-webkit-resizer {
 
     .testimonials-avatar-box img {
         width: 80px;
+        border-radius: 20px;
     }
 
     .testimonials-item-title {
@@ -1588,6 +1589,7 @@ textarea.form-input::-webkit-resizer {
 
     .modal-avatar-box img {
         width: 65px;
+        border-radius: 18px;
     }
 
     .modal-img-wrapper > img {
