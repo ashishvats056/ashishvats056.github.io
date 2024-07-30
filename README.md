@@ -1,6 +1,6 @@
 # Personal portfolio
 
-Visit my [portfolio website](https://www.linkedin.com/in/ashishvats056/) to see this website.
+Visit my [portfolio website](https://ashishvats056.github.io/) to see this website.
 
 This is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
