@@ -118,6 +118,25 @@ for (let i = 0; i < formInputs.length; i++) {
     });
 }
 
+document.querySelector(".contact-form").addEventListener('submit', function(event) {
+    event.preventDefault()
+
+    var fullname = document.querySelector('input[name="fullname"]').value;
+    var email = document.querySelector('input[name="email"]').value;
+    var message = document.querySelector('textarea[name="message"]').value;
+
+    var mailtoLink = 'mailto:ashishvats056@gmail.com'
+                   + '?subject=' + encodeURIComponent('Portfolio Contact - ' + fullname)
+                   + '&body=' + encodeURIComponent(
+                       'Hi Ashish,\n\n' +
+                       message + '\n\n' +
+                       'Best regards,\n' +
+                       fullname + '\n' +
+                       email
+                   );
+    window.location.href = mailtoLink;
+});
+
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
