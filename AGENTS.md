@@ -7,7 +7,7 @@ Static portfolio site (HTML/CSS/JS only). No package manager, build, test, lint,
 - `index.html` — entire site: About / Resume / Contact sections (Projects nav + article are commented out, see below)
 - `assets/css/style.css` — all styles (`.skill-progress-*` rules are unused leftovers; skills are grouped text lists via `.skills-category-text`)
 - `assets/js/script.js` — all interactivity (vanilla JS, `"use strict"`)
-- `assets/images/` — `my-photo.gif` is the live avatar; `project-*` / `avatar-*` files are mostly unused leftovers from the `codewithsadee/vcard-personal-portfolio` template (placeholders still commented out in `index.html`)
+- `assets/images/` — `my-photo.gif` is the live avatar; `og-cover.png` is the social/LinkedIn preview wired via `og:*` tags in `index.html` `<head>` (1200×627); `project-*` / `avatar-*` files are mostly unused leftovers from the `codewithsadee/vcard-personal-portfolio` template (placeholders still commented out in `index.html`)
 
 ## Verify
 
